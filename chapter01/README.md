@@ -12,9 +12,9 @@
 ```$deactivate```
 
 #### Check the location of the Python executable
-```$which python```
+```$which python```<br>
 When the virtual environment is activate it should look something
-like this: ```/home/pi/venv_name/bim/pyhonh```. The path can be different
+like this: ```/home/pi/venv_name/bin/python```. The path can be different
 depending on where you create the environment.
 
 #### List installed ```pip``` packages
