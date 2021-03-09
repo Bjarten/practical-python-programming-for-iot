@@ -1,0 +1,5 @@
+colorzero==1.1
+gpiozero==1.5.1
+pi==0.1.2
+pigpio==1.78
+pkg-resources==0.0.0
