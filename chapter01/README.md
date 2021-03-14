@@ -1,7 +1,6 @@
 # Chapter 1 - Setting Up Your Development Environment 
 
-## Notes
-### Setting up a Python virtual environment
+## Setting up a Python virtual environment
 #### Create a virtual environment
 ```$ python3 -m venv venv```
 
