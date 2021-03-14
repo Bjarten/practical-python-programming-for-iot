@@ -118,3 +118,8 @@ The `&`character makes sure the script runs in the background.
 >
 >GPIOZero   Available
 >PiGPIO     Available```
+
+## Configure the PiGPIO daemon
+To be able to use the PiGPIO client library we need to start the PiGPIO daemon. The following commands will ensure that the PiGPIO daemon starts automatically at boot.
+>`$ sudo systemctl enable pigpiod`<br>
+>`$ sudo systemctl start pigpiod`
