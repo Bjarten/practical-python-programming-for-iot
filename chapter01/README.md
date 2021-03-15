@@ -123,3 +123,10 @@ The `&`character makes sure the script runs in the background.
 To be able to use the PiGPIO client library we need to start the PiGPIO daemon. The following commands will ensure that the PiGPIO daemon starts automatically at boot.
 >`$ sudo systemctl enable pigpiod`<br>
 >`$ sudo systemctl start pigpiod`
+
+## Files
+* `requirements.txt` - Python dependencies required for this chapter
+
+* `gpio_pkg_check.py` - Verify availability of Python GPIO Libraries 
+
+* `run_on_boot.sh` - Bash helper script to start a Python program on boot 
