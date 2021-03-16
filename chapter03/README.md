@@ -1,10 +1,14 @@
 # Chapter 3 - RESTFul APIs and Web Socket Services with Flask
 
+## Resources
+* [localtunnel.github.io](https://localtunnel.github.io/) - Localtunnel allows you to easily share a web service on your local development machine without messing with DNS and firewall settings.
+* [ngrok.com](https://ngrok.com/) - Spend more time programming. One command for an instant, secure URL to your localhost server through any NAT or firewall.
+
 ## Virtual environment set up for this chapter<br>
 > `$ python3 -m venv venv`<br>
 > `$ source venv/bin/activate`<br>
 > `(venv) $ pip install pip --upgrade`<br>
-> `(venv) $ pip install -r requirements.txt` 
+> `(venv) $ pip install -r requirements.txt`
 
 ## Files
 
