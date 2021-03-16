@@ -36,16 +36,19 @@ depending on where you create the environment.
 (venv) $ pip --help
 ```
 
-## Set up for the virtual environment for this chapter<br>
+## Virtual environment set up for this chapter<br>
 ### Option 1
-1. `$ source venv/bin/activate`
-2. `(venv) $pip install -r requirements.txt`
+1. `$ python3 -m venv venv`
+2. `$ source venv/bin/activate`
+3. `(venv) $ pip install pip --upgrade`
+4. `(venv) $pip install -r requirements.txt`
 
 ### Option 2
-1. `$ source venv/bin/activate`
-2. `(venv) $ pip install --upgrade pi`
-3. `(venv) $ pip install gpiozero pigpio`
-4. `(venv) $ pip freeze > requirements.txt`
+1. `$ python3 -m venv venv`
+2. `$ source venv/bin/activate`
+3. `(venv) $ pip install --upgrade pi`
+4. `(venv) $ pip install gpiozero pigpio`
+5. `(venv) $ pip freeze > requirements.txt`
 
 ## Using sudo within virtual environments
 The `sudo` action will use default Python that's available to the root user. The correct way to run a script is to pass the absolute path using the `which python`command:<br>
