@@ -29,7 +29,7 @@ LED_STATES = ['off', 'on', 'blink']
 current_led_state = 0 # off
 
 # Make sure thing_name matches the "dweet_led thing" you want to control.
-thing_name = '**** ADD YOUR THING NAME HERE ****'
+thing_name = '747a1500'
 URL = 'https://dweet.io'
 
 
