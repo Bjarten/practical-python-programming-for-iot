@@ -4,6 +4,32 @@
 * [localtunnel.github.io](https://localtunnel.github.io/) - Localtunnel allows you to easily share a web service on your local development machine without messing with DNS and firewall settings.
 * [ngrok.com](https://ngrok.com/) - Spend more time programming. One command for an instant, secure URL to your localhost server through any NAT or firewall.
 
+## cURL
+We can use the `curl` command-line tool to interacte with Flask API.
+
+### Example commands
+Get the current led brightness value
+> `$ curl -X GET http://localhost:5000/led`
+
+Set the new value for led brightness
+> `$ curl -X POST -d '{"level": 100}' -H "Content-Type: application/json" http://localhost:5000/led`
+
+### cURL options for GET
+`curl -X GET [options] [URL]`
+* `-X GET`: The HTTP request method that will be used when communicationg with the remote server
+* `URL`: The URL to request
+
+### cURL options for POST
+`curl -X POST [options] [URL]`
+* `-X POST`: The HTTP request method that will be used when communicationg with the remote server
+* `-d`: This is the data we want to POST to the server, in our case it is in json format
+* `-H`: To set a specific header or Content-Type. 
+In our example we are setting POST request type to `application/json`, to let our server know that the data we are sending is a JSON object
+* `URL`: The URL to request
+
+
+
+
 ## Virtual environment set up for this chapter<br>
 > `$ python3 -m venv venv`<br>
 > `$ source venv/bin/activate`<br>
