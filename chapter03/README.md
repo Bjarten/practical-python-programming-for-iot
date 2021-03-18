@@ -1,9 +1,5 @@
 # Chapter 3 - RESTFul APIs and Web Socket Services with Flask
 
-## Resources
-* [localtunnel.github.io](https://localtunnel.github.io/) - Localtunnel allows you to easily share a web service on your local development machine without messing with DNS and firewall settings.
-* [ngrok.com](https://ngrok.com/) - Spend more time programming. One command for an instant, secure URL to your localhost server through any NAT or firewall.
-
 ## cURL
 We can use the `curl` command-line tool to interacte with Flask API.
 
@@ -27,9 +23,6 @@ Set the new value for led brightness
 In our example we are setting POST request type to `application/json`, to let our server know that the data we are sending is a JSON object
 * `URL`: The URL to request
 
-
-
-
 ## Virtual environment set up for this chapter<br>
 > `$ python3 -m venv venv`<br>
 > `$ source venv/bin/activate`<br>
@@ -51,3 +44,15 @@ In our example we are setting POST request type to `application/json`, to let ou
 * `static/jquery.min.js` - JQuery JavaScript library for both web clients
 
 * `static/socket.io` - Socket.io JavaScript library for `index_ws_client.html`
+
+## Resources
+* [localtunnel.github.io](https://localtunnel.github.io/) - Localtunnel allows you to easily share a web service on your local development machine without messing with DNS and firewall settings.
+* [ngrok.com](https://ngrok.com/) - Spend more time programming. One command for an instant, secure URL to your localhost server through any NAT or firewall.
+* [REST on SitePoint.com](https://www.sitepoint.com/developers-rest-api/)
+* [Flask Quick Start](https://flask.palletsprojects.com/en/1.1.x/quickstart/)
+* [Flask-RESTful Quick Start](https://flask-restful.readthedocs.io/en/latest/quickstart.html)
+* [Flask documentation](https://flask.palletsprojects.com/)
+* [Flask-SocketIO](https://flask-socketio.readthedocs.io/en/latest/)
+* [Socket.IO (javascript library)](https://socket.io/)
+* [Web Socket basics](https://www.html5rocks.com/en/tutorials/websockets/basics/) - HTML5 Rocks article
+* [Web Socket basics](https://medium.com/@td0m/what-are-web-sockets-what-about-rest-apis-b9c15fd72aac) - Medium article
