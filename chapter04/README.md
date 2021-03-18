@@ -1,5 +1,11 @@
 # Chapter 4 - Distributed Systems with Python and MQTT
 
+## Virtual environment set up for this chapter<br>
+> `$ python3 -m venv venv`<br>
+> `$ source venv/bin/activate`<br>
+> `(venv) $ pip install pip --upgrade`<br>
+> `(venv) $ pip install -r requirements.txt`
+
 ## Files
 
 * `requirements.txt` - Python dependencies required for this chapter
