@@ -23,3 +23,8 @@
 * `dweet_button.py` - Creating a dweet using a push button
 
 * `pigpio_led_class.py` - PiGPIO class wrapper example
+
+## Resources
+* [Dwwet.io](http://dweet.io/) - Simple publishing and subscribing for machines, sensors, devices, robots, and gadgets.
+* [GPIOZero](https://gpiozero.readthedocs.io/en/stable/) - High level library
+* [PiGIO](http://abyz.me.uk/rpi/pigpio/python.html) - Low level library
